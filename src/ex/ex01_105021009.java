@@ -5,11 +5,17 @@ package ex;
  * Author: 105021009  陳俞儒
  */
 
+import java.util.Scanner; 
 public class ex01_105021009{
-
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in);
+		int F = scn.nextInt();
+		int C = (F-32)*5/9;
+		System.out.println(C);
+		
 	}
 
 }
