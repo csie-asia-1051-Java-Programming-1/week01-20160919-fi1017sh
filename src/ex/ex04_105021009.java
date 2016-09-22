@@ -4,12 +4,14 @@ package ex;
  * Date: 2016/09/19
  * Author: 105021009  陳俞儒
  */
-
+import java.util.Scanner;
 public class ex04_105021009 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in);
+		int a=scn.nextInt();
+		System.out.print(Math.sqrt(a));
 	}
 
 }

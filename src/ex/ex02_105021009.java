@@ -4,18 +4,18 @@ package ex;
  * Date: 2016/09/19
  * Author: 105021009  陳俞儒
  */
-
-public class ex02_105021009 {
 	
-	import java.until.Scanner;
+public class ex02_105021009 {
+	importjava.until.Scanner;
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-	Scanner scn = new Scanner(System in);
-	x=scanner.next();
-	System.out.print("公斤數");
-	System.out.print("磅" + (x/0.45359));
+	Scanner scn = new Scanner(System.in);
+	double kg = scn.nextInt();
+	double sum = kg/0.45359;
+	System.out.println(sum);
 	}
 
 }
